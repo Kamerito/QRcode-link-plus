@@ -30,7 +30,7 @@ function scanQrCode() {
     qrResult.innerHTML = `スキャン結果: ${code.data}`;
 
     // スキャンしたQRコードのデータをリンクに適用する
-    const link = `https://kame.com/${code.data}`;
+    const link = `https://github.com/Kamerito/QRcode-link-plus/${code.data}`;
     window.open(link, '_blank');
   }
 
